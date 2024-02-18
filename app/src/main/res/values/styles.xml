@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="gross_price_input"
+        parent="ThemeOverlay.Material3.TextInputEditText" >
+        <item name="android:layout_width"> 0dp </item>
+        <item name="android:layout_height"> wrap_content </item>
+        <item name="android:hint"> @string/gross </item>
+        <item name="android:textColorHint"> #40000000 </item>
+        <item name="android:inputType"> numberDecimal </item>
+        <item name="android:singleLine"> true </item>
+        <item name="android:gravity"> end </item>
+        <item name="android:textSize"> @dimen/gross_size </item>
+        <item name="android:textStyle"> bold </item>
+    </style>
+
+    <style name="calculated_text" >
+        <item name="android:singleLine"> true </item>
+        <item name="android:gravity"> end </item>
+        <item name="android:textSize"> @dimen/calculated_value_size </item>
+    </style>
+
+    <style name="calculated_value"
+        parent="calculated_text" >
+        <item name="android:maxLength"> 7 </item>
+        <item name="android:gravity"> end </item>
+    </style>
+</resources>

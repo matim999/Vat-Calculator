@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_price_8_percent">
+
+    <fragment
+        android:id="@+id/navigation_price_8_percent"
+        android:name="com.example.vatcalculator.ui.fragments.Price8PercentFragment"
+        android:label="@string/title_price_8_percent"
+        tools:layout="@layout/fragment_price_8_percent" />
+
+    <fragment
+        android:id="@+id/navigation_price_23_percent"
+        android:name="com.example.vatcalculator.ui.fragments.Price23PercentFragment"
+        android:label="@string/title_price_23_percent"
+        tools:layout="@layout/fragment_price_23_percent" />
+
+    <fragment
+        android:id="@+id/navigation_price_8_and_23_percent"
+        android:name="com.example.vatcalculator.ui.fragments.Price8And23PercentFragment"
+        android:label="@string/title_price_8_and_23_percent"
+        tools:layout="@layout/fragment_price_8_and_23_percent" />
+</navigation>

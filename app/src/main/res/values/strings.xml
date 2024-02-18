@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Vat Calculator</string>
+    <string name="title_price_8_percent">8%</string>
+    <string name="title_price_23_percent">23%</string>
+    <string name="title_price_8_and_23_percent">8%/23%</string>
+    <string name="gross">Brutto</string>
+    <string name="vat_name_8_percent">Vat 8%:</string>
+    <string name="vat_name_23_percent">Vat 23%:</string>
+    <string name="net_name_8_percent">Netto 8%:</string>
+    <string name="net_name_23_percent">Netto 23%:</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.Price8And23PercentFragment" >
+
+    <TextView
+        android:id="@+id/netName8Percent"
+        style="@style/calculated_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/net_name_8_percent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/vatName8Percent"
+        style="@style/calculated_text"
+        android:text="@string/vat_name_8_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/netName8Percent"
+        app:layout_constraintTop_toBottomOf="@+id/netName8Percent" />
+
+    <TextView
+        android:id="@+id/netValue8Percent"
+        style="@style/calculated_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/netName8Percent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/netName8Percent"
+        app:layout_constraintTop_toTopOf="@+id/netName8Percent" />
+
+    <TextView
+        android:id="@+id/vatValue8Percent"
+        style="@style/calculated_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vatName8Percent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/netValue8Percent"
+        app:layout_constraintTop_toTopOf="@+id/vatName8Percent" />
+
+    <TextView
+        android:id="@+id/netName23Percent"
+        style="@style/calculated_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/net_name_23_percent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vatName8Percent" />
+
+    <TextView
+        android:id="@+id/vatName23Percent"
+        style="@style/calculated_text"
+        android:text="@string/vat_name_23_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/netName23Percent"
+        app:layout_constraintTop_toBottomOf="@+id/netName23Percent" />
+
+    <TextView
+        android:id="@+id/netValue23Percent"
+        style="@style/calculated_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/netName23Percent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/netName23Percent"
+        app:layout_constraintTop_toTopOf="@+id/netName23Percent" />
+
+    <TextView
+        android:id="@+id/vatValue23Percent"
+        style="@style/calculated_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vatName23Percent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/netValue23Percent"
+        app:layout_constraintTop_toTopOf="@+id/vatName23Percent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
